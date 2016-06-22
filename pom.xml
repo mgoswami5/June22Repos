@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>June22Repos</name>
   <description></description>
+  <modules>
+    <module>FY17_LSP_Project</module>
+  </modules>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
