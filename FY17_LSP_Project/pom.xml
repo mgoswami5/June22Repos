@@ -11,6 +11,8 @@
   <artifactId>FY17_LSP_Project</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>FY17_LSP_Project</name>
+  <description>create a rule using the contant of a manually created data model
+</description>
   <build>
     <plugins>
       <plugin>
