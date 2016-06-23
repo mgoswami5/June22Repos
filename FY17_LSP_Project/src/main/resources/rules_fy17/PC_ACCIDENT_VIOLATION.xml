@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fsc:attribute-def xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fsc="http://base.accelerator.org/XSD/rf/core" xsi:schemaLocation="http://base.accelerator.org/XSD/rf/core uav" description="PC_COVERAGE_USE" name="PC_COVERAGE_USE" id="_QgRfUPX9EeKaA8Fjn5_qPA">
+  <fsc:type>
+    <fsc:fscstring maxLength="30"/>
+  </fsc:type>
+  <fsc:allowedvalue id="_HqnU0PnwEeKdYdOyqAccViolation_1">
+    <fsc:internal value="DID"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DRIVING UNDER INFLUENCE OF DRUGS"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_4">
+    <fsc:internal value="ACN"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ACCIDENT NOT AT FAULT"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_5">
+    <fsc:internal value="ALL"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="OTHER MINOR VIOLATION"/>
+    </fsc:external>	
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_6">
+    <fsc:internal value="AOT"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ACCIDENT LESS THAN 50% FAULT"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_7">
+    <fsc:internal value="APD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ACCIDENT - PROPERTY DAMAGE ONLY"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_8">
+    <fsc:internal value="ATL"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ANTI-THEFT LAW"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_9">
+    <fsc:internal value="BRK"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DEFECTIVE BRAKES"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_10">
+    <fsc:internal value="CLD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="CARELESS DRIVING"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_11">
+    <fsc:internal value="CMP"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="COMPREHENSIVE CLAIM"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_12">
+    <fsc:internal value="DBL"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DOUBLE LINES"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_13">
+    <fsc:internal value="DCA"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DRIVER UNDER 21 CARRYING ALCOHOL"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_14">
+    <fsc:internal value="DEF"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DEFECTIVE EQUIPMENT"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_15">
+    <fsc:internal value="DIV"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DIVERSION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_16">
+    <fsc:internal value="DLR"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DRIVING WHILE LICENSE RESTRICTED"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_18">
+    <fsc:internal value="DLS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DRIVING WHILE LICENSE SUSPENDED"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_19">
+    <fsc:internal value="DPO"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DISREGARD POLICE OFFICER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_20">
+    <fsc:internal value="DWI"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="DRIVING WHILE INTOXICATED"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_21">
+    <fsc:internal value="EPO"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ELUDING POLICE OFFICER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_22">
+    <fsc:internal value="EQP"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="EQUIPMENT VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_24">
+    <fsc:internal value="FDR"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAILURE TO DRIVE ON RIGHT HALF RD"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_25">
+    <fsc:internal value="FDU"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FELONY DUI"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_27">
+    <fsc:internal value="FEL"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FELONY"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_28">
+    <fsc:internal value="FSO"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAIL TO STOP FOR POLICE OFFICER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_29">
+    <fsc:internal value="FTC"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FOLLOWING TOO CLOSELY"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_30">
+    <fsc:internal value="FTS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAILURE TO STOP"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_31">
+    <fsc:internal value="FTY"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAILURE TO YIELD"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_32">
+    <fsc:internal value="FUD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAILURE TO USE DUE CARE"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_33">
+    <fsc:internal value="FVC"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="FAILURE HAVE VEHICLE UNDER CONTROL"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_34">
+    <fsc:internal value="HAR"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="HIT AND RUN"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_35">
+    <fsc:internal value="HOA"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="HOMICIDE OR ASSAULT"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_36">
+    <fsc:internal value="ILC"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="IMPROPER LANE CHANGE"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_37">
+    <fsc:internal value="IMP"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="IMPROPER PASS"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_38">
+    <fsc:internal value="LCN"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="LICENSE OR PERMIT VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_39">
+    <fsc:internal value="LIC"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="LICENSE INTERRUPTION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_40">
+    <fsc:internal value="LTS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="LIGHT VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_41">
+    <fsc:internal value="NCA"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="NON CHARGEABLE ATTRIBUTE"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_21">
+    <fsc:internal value="NGD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="NEGLIGENT DRIVING"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_42">
+    <fsc:internal value="NHM"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="NEGLIGENT HOMICIDE- MANSLAUGHTER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_43">
+    <fsc:internal value="OPN"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="OPEN CONTAINER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_44">
+    <fsc:internal value="OWP"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="OPERATE VEHICLE WITHOUT CONSENT"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_45">
+    <fsc:internal value="OWS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="ONE-WAY STREET OR HIGHWAY"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_46">
+    <fsc:internal value="PAS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="PASSING VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_47">
+    <fsc:internal value="PCA"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="PASSENGER UNDER 21 CARRY ALCOHOL"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_48">
+    <fsc:internal value="POD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="POSSESSION OF DRUGS"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_49">
+    <fsc:internal value="PSR"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="PASS SCHOOL BUS RED LIGHTS FLASHING"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_50">
+    <fsc:internal value="PUD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="PERMITTING UNLICENSED PERSON TO DRIVE"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_51">
+    <fsc:internal value="REV"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="REVOCATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_52">
+    <fsc:internal value="RKD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="RECKLESS DRIVING"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_53">
+    <fsc:internal value="SBT"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="SEAT BELTS"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_54">
+    <fsc:internal value="SPC"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="SPEED CONTEST"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_55">
+    <fsc:internal value="SPD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="SPEEDING"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_56">
+    <fsc:internal value="SPO"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="SPEEDING 1 - 10 MPH ABOVE SPEED LIMIT OR IN ADVERSE CONDITIONS"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_57">
+    <fsc:internal value="STP"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="STOP VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_58">
+    <fsc:internal value="SUS"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="SUSPENSION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_59">
+    <fsc:internal value="TRN"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="TURN VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_60">
+    <fsc:internal value="TRV"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="TRAFFIC VIOLATION"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_61">
+    <fsc:internal value="UDL"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="UNLAWFUL USE OF DRIVERS LICENSE"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_62">
+    <fsc:internal value="ULD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="UNLICENSED DRIVER"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_63">
+    <fsc:internal value="UST"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="UNSAFE TURN"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_64">
+    <fsc:internal value="WWD"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="WRONG WAY ON DIVIDED HIGHWAY"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+  <fsc:allowedvalue id="_Y6BJsA8xEeO3l-LLAccViolation_65">
+    <fsc:internal value="WWO"/>
+    <fsc:external>
+      <fsc:display locale="EN" type="html" value="WRONG WAY ONE-WAY STREET"/>
+    </fsc:external>
+  </fsc:allowedvalue>
+   <fsc:defaultvalue>
+    <fsc:defaultavref/>
+  </fsc:defaultvalue>
+  <fsc:keysets>
+    <fsc:keysetusage core_display_trans="null" core_system_trans="null" core_validation="null"/>
+  </fsc:keysets>
+</fsc:attribute-def>
